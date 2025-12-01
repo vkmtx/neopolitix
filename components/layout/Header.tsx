@@ -1,8 +1,8 @@
 "use client"
 
 import { Search, Bell, ChevronDown } from "lucide-react"
-import { Input } from "@/ui/input"
-import { Avatar, AvatarFallback, AvatarImage } from "@/ui/avatar"
+import { Input } from "@/components/ui/input"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,8 +10,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/ui/dropdown-menu"
-import { Button } from "@/ui/button"
+} from "@/components/ui/dropdown-menu"
+import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
